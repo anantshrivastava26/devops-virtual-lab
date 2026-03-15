@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "devops_server" {
- ami           = "ami-0c02fb55956c7d316"
+ ami           = "ami-02dfbd4ff395f2a1b"
  instance_type = "t3.micro"
  key_name      = "my-key"
 
